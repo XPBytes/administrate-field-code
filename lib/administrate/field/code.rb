@@ -1,6 +1,6 @@
 require 'administrate/field/text'
 require 'administrate/field/code/version'
-require 'rails'
+require 'rails/engine'
 
 module Administrate
   module Field
