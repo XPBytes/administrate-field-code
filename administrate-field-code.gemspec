@@ -4,7 +4,7 @@ require 'administrate/field/code/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'administrate-field-code'
-  spec.version       = Administrate::Field::Code::VERSION
+  spec.version       = Administrate::Field::CodeVersion::VERSION
   spec.authors       = ['Derk-Jan Karrenbeld']
   spec.email         = ['derk-jan@xpbytes.com']
 
