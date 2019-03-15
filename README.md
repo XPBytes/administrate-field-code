@@ -1,7 +1,7 @@
 # Administrate::Field::Code
 
 [![Build Status: master](https://travis-ci.com/XPBytes/administrate-field-code.svg)](https://travis-ci.com/XPBytes/administrate-field-code)
-[![Gem Version](https://badge.fury.io/rb/administrate-field-codesvg)](https://badge.fury.io/rb/administrate-field-code)
+[![Gem Version](https://badge.fury.io/rb/administrate-field-code.svg)](https://badge.fury.io/rb/administrate-field-code)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 A text field that shows a code block.
@@ -54,21 +54,20 @@ There are no options for this field.
 ## Related
 
 - [`Administrate`](https://github.com/thoughtbot/administrate): A Rails engine that helps you put together a super-flexible admin dashboard.
-- [`Administrate::BaseController`](https://github.com/XPBytes/administrate-base_controller): A set of application controller improvements.
+- [`Administrate::BaseController`](https://github.com/XPBytes/administrate-base_controller): :stars: A set of application controller improvements.
 
 ### Concerns
 
-- [`Administrate::DefaultOrder`](https://github.com/XPBytes/administrate-default_order): Sets the default order for a resource in a administrate controller.
-- [`Administrate::SerializedFields`](https://github.com/XPBytes/administrate-serialized_fields): Automatically deserialize administrate fields on form submit.
+- [`Administrate::DefaultOrder`](https://github.com/XPBytes/administrate-default_order): :1234: Sets the default order for a resource in a administrate controller.
+- [`Administrate::SerializedFields`](https://github.com/XPBytes/administrate-serialized_fields): :ab: Automatically deserialize administrate fields on form submit.
 
 ### Fields
 
-<!-- - [`Administrate::Field::Code`](https://github.com/XPBytes/administrate-field-code): A `text` field that shows code. -->
-- [`Administrate::Field::Hyperlink`](https://github.com/XPBytes/administrate-field-hyperlink): A `string` field that is shows a hyperlink. 
-- [`Adminisrtate::Field::JsonEditor`](https://github.com/XPBytes/administrate-field-json_editor): A `text` field that shows a [JSON editor](https://github.com/josdejong/jsoneditor).
-- [`Administrate::Field::ScopedBelongsTo`](https://github.com/XPBytes/administrate-field-scoped_belongs_to): A `belongs_to` field that yields itself to the scope `lambda`.
-- [`Administrate::Field::ScopedHasMany`](https://github.com/XPBytes/administrate-field-scoped_has_many): A `has_many` field that yields itself to the scope `lambda`.
-- [`Administrate::Field::TimeAgo`](https://github.com/XPBytes/administrate-field-time_ago): A `date_time` field that shows its data as `time_ago` since.
+- [`Administrate::Field::Hyperlink`](https://github.com/XPBytes/administrate-field-hyperlink): :pencil: A `string` field that is shows a hyperlink.
+- [`Adminisrtate::Field::JsonEditor`](https://github.com/XPBytes/administrate-field-json_editor): :pencil: A `text` field that shows a [JSON editor](https://github.com/josdejong/jsoneditor).
+- [`Administrate::Field::ScopedBelongsTo`](https://github.com/XPBytes/administrate-field-scoped_belongs_to): :pencil: A `belongs_to` field that yields itself to the scope `lambda`.
+- [`Administrate::Field::ScopedHasMany`](https://github.com/XPBytes/administrate-field-scoped_has_many): :pencil: A `has_many` field that yields itself to the scope `lambda`.
+- [`Administrate::Field::TimeAgo`](https://github.com/XPBytes/administrate-field-time_ago): :pencil: A `date_time` field that shows its data as `time_ago` since.
 
 ## Development
 
