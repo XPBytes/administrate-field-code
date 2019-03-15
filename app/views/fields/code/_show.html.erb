@@ -1,0 +1,25 @@
+<%#
+# Code Show Partial
+
+This partial renders a text attribute,
+to be displayed on a resource's show page.
+
+By default, the attribute is rendered as a code block with the data
+
+## Local variables:
+
+- `field`:
+  An instance of [Administrate::Field::Code][1].
+  A wrapper around the [Administrate::Field::Text][2] field.
+
+[1]: http://www.rubydoc.info/gems/administrate-field-code/Administrate/Field/Code
+[2]: http://www.rubydoc.info/gems/administrate/Administrate/Field/Text
+%>
+
+<pre style="
+  font-size: 12px;
+  background: rgba(0, 0, 0, .1);
+  padding: 10px;
+  margin: -10px;
+  border: 1px solid rgba(0, 0, 0, .3);
+"><code><%= field.to_s %></code></pre>
