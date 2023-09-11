@@ -1,6 +1,6 @@
 # Administrate::Field::Code
 
-[![Build status: master](https://github.com/XPBytes/administrate-field-code/actions/workflows/ruby.yml/badge.svg)](https://github.com/XPBytes/administrate-field-code/actions/workflows/ruby.yml)
+[![Build status: master](https://github.com/XPBytes/administrate-field-code/actions/workflows/ruby.yml/badge.svg?event=push)](https://github.com/XPBytes/administrate-field-code/actions/workflows/ruby.yml)
 [![Gem Version](https://badge.fury.io/rb/administrate-field-code.svg)](https://badge.fury.io/rb/administrate-field-code)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
